@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "password": "1111",
+      "firstname": "Naveen",
+      "lastname": "Jangir",
+      "isLogged": false
+    },
+    {
+      "id": 2,
+      "password": "2222",
+      "firstname": "Rohan",
+      "lastname": "Kulkarni",
+      "isLogged": false
+    },
+    {
+      "id": 3,
+      "password": "3333",
+      "firstname": "Rohit",
+      "lastname": "Dighe",
+      "isLogged": false
+    }
+  ],
+  "messages": [
+    {
+      "id": 111111111111,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "Hi, how you doing?",
+      "time": "Wednesday 11:50"
+    },
+    {
+      "id": 111111111112,
+      "sentBy": 2,
+      "sentTo": 3,
+      "text": "Hi, are you in for tonight plan?",
+      "time": "Wednesday 11:50"
+    },
+    {
+      "id": 111111111113,
+      "sentBy": 3,
+      "sentTo": 2,
+      "text": "Yes buddy. btw what time is it starting?",
+      "time": "Wednesday 11:52"
+    },
+    {
+      "id": 111111111114,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "Hey, I am good. So what is the plan?",
+      "time": "Wednesday 11:55"
+    }
+  ]
+}
