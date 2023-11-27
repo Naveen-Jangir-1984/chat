@@ -1,0 +1,226 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "password": "1111",
+      "firstname": "Naveen",
+      "lastname": "Jangir",
+      "isLogged": true,
+      "isTyping": false
+    },
+    {
+      "id": 2,
+      "password": "2222",
+      "firstname": "Rohan",
+      "lastname": "Kulkarni",
+      "isLogged": false,
+      "isTyping": false
+    },
+    {
+      "id": 3,
+      "password": "3333",
+      "firstname": "Rohit",
+      "lastname": "Dighe",
+      "isLogged": false,
+      "isTyping": false
+    }
+  ],
+  "messages": [
+    {
+      "id": 111111111111,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "Hi, how you doing?",
+      "time": "Wednesday 11:50"
+    },
+    {
+      "id": 111111111112,
+      "sentBy": 2,
+      "sentTo": 3,
+      "text": "Hi, are you in for tonight plan?",
+      "time": "Wednesday 11:50"
+    },
+    {
+      "id": 111111111113,
+      "sentBy": 3,
+      "sentTo": 2,
+      "text": "Yes buddy. btw what time is it starting?",
+      "time": "Wednesday 11:52"
+    },
+    {
+      "id": 111111111114,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "Hey, I am good. So what is the plan?",
+      "time": "Wednesday 11:55"
+    },
+    {
+      "id": 1701493457145,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "hello sir, what is the plan today?",
+      "time": "Saturday 10:34"
+    },
+    {
+      "id": 1701493467326,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "helooooo, you there?",
+      "time": "Saturday 10:34"
+    },
+    {
+      "id": 1701493484602,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "buddy you need to talk to me otherwise we will make some plan and you will be left alone",
+      "time": "Saturday 10:34"
+    },
+    {
+      "id": 1701493497574,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "this is not going good. pleae respond in 1 hour",
+      "time": "Saturday 10:34"
+    },
+    {
+      "id": 1701493524976,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "and also, what is going on with you guys since yesterday. i heard from pankaj",
+      "time": "Saturday 10:35"
+    },
+    {
+      "id": 1701493540302,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "is everything fine or you need help to get it sorted",
+      "time": "Saturday 10:35"
+    },
+    {
+      "id": 1701493569140,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "otherwise you know what happened last time :) just joking but be good to him please",
+      "time": "Saturday 10:36"
+    },
+    {
+      "id": 1701493610977,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "please do not get into this again, a request else it will be messy",
+      "time": "Saturday 10:36"
+    },
+    {
+      "id": 1701493631833,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "ohh looks who is talking as if we care",
+      "time": "Saturday 10:37"
+    },
+    {
+      "id": 1701493647204,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "are you serious",
+      "time": "Saturday 10:37"
+    },
+    {
+      "id": 1701493657923,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "dont fool me around",
+      "time": "Saturday 10:37"
+    },
+    {
+      "id": 1701493673402,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "last time also we had this argument, i am not going with you all",
+      "time": "Saturday 10:37"
+    },
+    {
+      "id": 1701493701761,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "hey we counted on you",
+      "time": "Saturday 10:38"
+    },
+    {
+      "id": 1701493715806,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "do not go with assumption you should have talked with me",
+      "time": "Saturday 10:38"
+    },
+    {
+      "id": 1701493731018,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "next time we will not consider you",
+      "time": "Saturday 10:38"
+    },
+    {
+      "id": 1701493738292,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "who cares",
+      "time": "Saturday 10:38"
+    },
+    {
+      "id": 1701493751420,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "and do not message me, we are done",
+      "time": "Saturday 10:39"
+    },
+    {
+      "id": 1701493765502,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "i have no interest in your group who crabs",
+      "time": "Saturday 10:39"
+    },
+    {
+      "id": 1701493889334,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "done",
+      "time": "Saturday 10:41"
+    },
+    {
+      "id": 1701493903422,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "what else is left to discuss?",
+      "time": "Saturday 10:41"
+    },
+    {
+      "id": 1701494106577,
+      "sentBy": 2,
+      "sentTo": 1,
+      "text": "your pyjamas",
+      "time": "Saturday 10:45"
+    },
+    {
+      "id": 1701494191158,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "good good",
+      "time": "Saturday 10:46"
+    },
+    {
+      "id": 1701494673727,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "ohh man we fought out the heart here, it is indeed crazy",
+      "time": "Saturday 10:54"
+    },
+    {
+      "id": 1701538176057,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "amazing",
+      "time": "Saturday, 02 December, 22:59"
+    }
+  ]
+}

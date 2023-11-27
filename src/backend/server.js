@@ -53,6 +53,22 @@ app.post("/login", (req, res) => {
   });
 });
 
+app.post("/typing", (req, res) => {
+  fs.readFile("./DB.json", (err, data) => {
+    if (err) console.log(err);
+    const form = req.body;
+    data = JSON.parse(data);
+    data.users.map((user) => {
+      if (user.id === form.id) {
+        user.isTyping = form.isTyping;
+      }
+      return user;
+    });
+    fs.writeFileSync("./DB.json", JSON.stringify(data, null, 2));
+    res.end(JSON.stringify({ status: "success" }));
+  });
+});
+
 app.post("/logout", (req, res) => {
   fs.readFile("./DB.json", (err, data) => {
     if (err) console.log(err);
