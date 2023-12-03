@@ -5,7 +5,7 @@
       "password": "1111",
       "firstname": "Naveen",
       "lastname": "Jangir",
-      "isLogged": true,
+      "isLogged": false,
       "isTyping": false
     },
     {
@@ -221,6 +221,20 @@
       "sentTo": 2,
       "text": "amazing",
       "time": "Saturday, 02 December, 22:59"
+    },
+    {
+      "id": 1701541588295,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "bravo",
+      "time": "Saturday, 02 December, 23:56"
+    },
+    {
+      "id": 1701569394656,
+      "sentBy": 1,
+      "sentTo": 2,
+      "text": "agree",
+      "time": "Sunday, 03 December, 07:39"
     }
   ]
 }

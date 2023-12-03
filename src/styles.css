@@ -181,7 +181,7 @@ input:focus {
   margin: 3px 0;
 }
 
-.user-input {
+.actions {
   width: 100%;
   height: 10%;
   display: flex;
@@ -192,7 +192,7 @@ input:focus {
   /* background-color: red; */
 }
 
-.user-input textarea {
+.actions textarea {
   width: 78%;
   height: 70%;
   box-sizing: border-box;
@@ -204,11 +204,11 @@ input:focus {
   padding: 10px;
 }
 
-.user-input textarea:focus {
+.actions textarea:focus {
   border-bottom: 2px solid lightblue;
 }
 
-.user-input button {
+.actions button {
   width: 20%;
   height: 70%;
 }
@@ -229,7 +229,7 @@ button {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: whitesmoke;
+  background: transparent;
 }
 
 /* Handle */
