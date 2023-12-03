@@ -21,7 +21,7 @@ const Login = ({ username, password, setUsername, setPassword, handleLogin, logi
         <div
           className="login-error"
           style={{ color: loginError ? "red" : "transparent" }}
-        >Incorrect Username or Password!</div>
+        >Incorrect Username or Password !</div>
       </div>
     </div>
   )
