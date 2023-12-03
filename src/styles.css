@@ -46,6 +46,7 @@
   background-color: white;
   box-sizing: border-box;
   outline: none;
+  border-bottom: 2px solid transparent;
 }
 
 input:focus {
@@ -202,6 +203,7 @@ input:focus {
   border: none;
   border-radius: 5px;
   padding: 10px;
+  border-bottom: 2px solid transparent;
 }
 
 .actions textarea:focus {
