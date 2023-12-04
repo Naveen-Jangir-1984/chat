@@ -27,7 +27,10 @@ const MessageDisplay = ({ msg, messages, conversation }) => {
                       ? "right"
                       : "left", fontSize: 'xx-small'
                   }}>{message.time}</div>
-                  <div>{message.text}</div>
+                  <div style={{
+                    backgroundColor: conversation.sentBy === message.sentBy
+                      ? "lightblue" : "white"
+                  }}>{message.text}</div>
                 </div>
               </div>
             ))

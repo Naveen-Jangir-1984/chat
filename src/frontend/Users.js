@@ -10,8 +10,8 @@ const Users = ({ users, conversation, handleUserSelection }) => {
               style={{
                 backgroundColor:
                   conversation.sentTo === user.id
-                    ? "white"
-                    : "whitesmoke",
+                    ? "lightblue"
+                    : "white",
               }}
               onClick={() => {
                 handleUserSelection(user.id)
