@@ -1,7 +1,8 @@
 const Actions = ({ message, conversation, setMessage, handleSend, handleTyping }) => {
   return (
-    <div className="actions">
+    <div className="w-full h-[10%] flex justify-between items-center px-[10px] box-border">
       <textarea
+        className="w-[78%] h-[70%] box-border p-[10px] resize-none overflow-hidden"
         type="text"
         rows="14"
         cols="10"
@@ -21,7 +22,10 @@ const Actions = ({ message, conversation, setMessage, handleSend, handleTyping }
         }
         }
       />
-      <button disabled={!message.length} onClick={() => handleSend()}>
+      <button
+        className="w-[20%] h-[70%]"
+        disabled={!message.length}
+        onClick={() => handleSend()}>
         Send
       </button>
     </div>

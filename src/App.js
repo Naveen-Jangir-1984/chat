@@ -133,7 +133,7 @@ const App = () => {
   }, [messages]);
 
   return (
-    <div className="app">
+    <div className="w-screen h-screen bg-gray-100">
       {conversation.sentBy ? (
         <Chat
           msg={msg}

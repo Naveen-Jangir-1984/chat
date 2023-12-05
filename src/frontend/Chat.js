@@ -15,9 +15,9 @@ const Chat = ({
   handleUserSelection
 }) => {
   return (
-    <div className="chat">
+    <div className="w-full h-full flex flex-col justify-between items-center">
       <Header handleLogout={handleLogout} />
-      <div className="user-conversations">
+      <div className="w-full h-[90%] flex justify-between items-center">
         <Users
           users={users}
           conversation={conversation}
